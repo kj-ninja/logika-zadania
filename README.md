@@ -6,7 +6,7 @@ Wszystkie zadania zostały wykonane przy użyciu języka JavaScript
 
 ## Instrukcje
 
-Zadania umieszczone są w folderach o nazwie rozdzial_<1-3> <br/>
+Zadania umieszczone są w folderach o nazwie `rozdzial_<1-3>` <br/>
 Każde zadanie jest opisane przy użyciu komentarzy oraz funckji `console.log`, wszystkie wyniki znajdują się w konsoli przeglądarki.
 
 - otwórz plik index.html w przeglądarce 
