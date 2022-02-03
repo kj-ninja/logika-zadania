@@ -11,7 +11,7 @@ console.log(gcd(9, 6));
 console.log(gcd(20, 5));
 
 
-// Napisz program znajdujący Największą Wspólną Wielokrotnośd dwóch liczb
+// Zadanie 2_1 Napisz program znajdujący Największą Wspólną Wielokrotnośd dwóch liczb
 function gcdTwoNumbers(x, y) {
   if ((typeof x !== 'number') || (typeof y !== 'number'))
     return false;
