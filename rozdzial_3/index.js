@@ -63,10 +63,45 @@ console.log(sumNumbersDivisibleBySevenInArray([10, 21, 30, 42]));
 
 
 // Zadanie 5_3 Napisz program obliczający iloczyn elementów tablicy jednowymiarowej
-function multiplyEvenNumbersInArray(array) {
+function multiplyNumbersInArray(array) {
   console.log('Tablica ', array);
   return array.reduce((a, b) => a * b);
 }
 
 console.log('Zadanie 5_3: ');
-console.log(multiplyEvenNumbersInArray([10, 2, 4, 5]));
+console.log(multiplyNumbersInArray([10, 2, 4, 5]));
+
+// Zadanie 6_3 Napisz program obliczający iloczyn elementów tablicy jednowymiarowej
+function multiplyEvenNumbersInArray(array) {
+  console.log('Tablica ', array);
+  let counter = 1;
+
+  array.forEach((number) => {
+    if (number % 2 === 0) {
+      counter = counter * number;
+    }
+  });
+
+  return counter;
+}
+
+console.log('Zadanie 6_3: ');
+console.log(multiplyEvenNumbersInArray([10, 3, 4, 5]));
+
+
+// Zadanie 7_3 Napisz program obliczający iloczyn elementów tablicy jednowymiarowej
+function multiplyOddNumbersInArray(array) {
+  console.log('Tablica ', array);
+  let counter = 1;
+
+  array.forEach((number) => {
+    if (number % 2 !== 0) {
+      counter = counter * number;
+    }
+  });
+
+  return counter;
+}
+
+console.log('Zadanie 7_3: ');
+console.log(multiplyOddNumbersInArray([10, 3, 4, 5]));
